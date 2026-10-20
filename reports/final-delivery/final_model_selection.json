@@ -1,0 +1,276 @@
+{
+  "selected_model": "E0 ResNet18 U-Net Epoch 24 best_macro_dice",
+  "model_config": {
+    "class": "steel_defect_segmentation.model.ResNet18UNet",
+    "encoder": "ResNet18-style residual stages trained from scratch",
+    "pretrained_weights": false,
+    "classes": 4,
+    "input_channels": 3,
+    "output": "four independent raw-logit channels",
+    "parameter_count": 14274244
+  },
+  "checkpoint": "reports/baseline-bce-formal/best_macro_dice.pt",
+  "checkpoint_epoch": 24,
+  "checkpoint_sha256": "fb7b5387621e9104c1513f482b48af9a04fba1c2fba3e9e362bcdb4890a5d4df",
+  "selection_basis": "Best current candidate under the approximate validation normal-image FPR reference of 34.01%; E0 Macro Dice 0.249202 and FPR 34.0113% at fixed 0.50 (0.0013 percentage points above a literal 34.0100% cutoff).",
+  "validation_metrics": {
+    "dice_per_class": [
+      0.04248165339231491,
+      0.02718483656644821,
+      0.5199521780014038,
+      0.4071885645389557
+    ],
+    "iou_per_class": [
+      0.021701790392398834,
+      0.0137797174975276,
+      0.3513077199459076,
+      0.2556414008140564
+    ],
+    "precision_per_class": [
+      0.8557299375534058,
+      0.9615902900695801,
+      0.7903379797935486,
+      0.5908636450767517
+    ],
+    "recall_per_class": [
+      0.02178148552775383,
+      0.013787306845188141,
+      0.38741281628608704,
+      0.3106273412704468
+    ],
+    "macro_dice": 0.24920180439949036,
+    "empty_image_false_positive_rate": 0.34011299435028247,
+    "tp": [
+      11940.0,
+      1427.0,
+      8085907.0,
+      1297045.0
+    ],
+    "fp": [
+      2013.0,
+      57.0,
+      2145041.0,
+      898123.0
+    ],
+    "fn": [
+      536232.0,
+      102074.0,
+      12785646.0,
+      2878521.0
+    ],
+    "val_loss": 0.017727788503670194,
+    "prediction_positive_pixel_ratio_per_class": [
+      1.8110016696570973e-05,
+      1.926128056884636e-06,
+      0.013279053902511962,
+      0.002849174308878256
+    ],
+    "probability_mean_per_class": [
+      0.0005192870102419587,
+      6.34516897330754e-05,
+      0.02124316454603087,
+      0.008716327317807634
+    ],
+    "probability_histogram_20_bins_per_class": [
+      [
+        769608716,
+        575814,
+        136392,
+        54911,
+        27677,
+        15722,
+        9803,
+        6323,
+        4601,
+        3688,
+        2872,
+        2435,
+        1951,
+        1508,
+        1386,
+        1093,
+        975,
+        865,
+        584,
+        284
+      ],
+      [
+        770403044,
+        33735,
+        8973,
+        3823,
+        2115,
+        1482,
+        1085,
+        792,
+        623,
+        444,
+        405,
+        315,
+        212,
+        178,
+        207,
+        124,
+        37,
+        6,
+        0,
+        0
+      ],
+      [
+        719628302,
+        15795458,
+        7353933,
+        4516773,
+        3251898,
+        2568259,
+        2149893,
+        1854266,
+        1636687,
+        1471183,
+        1347510,
+        1235517,
+        1118596,
+        1025365,
+        967392,
+        955423,
+        917396,
+        869101,
+        822116,
+        972532
+      ],
+      [
+        745458973,
+        8528084,
+        4034728,
+        2633547,
+        1945348,
+        1564328,
+        1336755,
+        1123324,
+        914501,
+        722844,
+        571465,
+        454806,
+        372104,
+        301226,
+        224966,
+        151718,
+        80607,
+        31410,
+        6813,
+        53
+      ]
+    ],
+    "full_background_prediction_image_ratio": 0.3519404572036151,
+    "representative_examples": {
+      "0": {
+        "fn": "1fed233e0.jpg",
+        "fp": "085bcd104.jpg",
+        "tp": "308cc088e.jpg"
+      },
+      "1": {
+        "fn": "a115aabc4.jpg",
+        "fp": "0dd76b019.jpg",
+        "tp": "6b53b62be.jpg"
+      },
+      "2": {
+        "fn": "428ebe246.jpg",
+        "fp": "744e852d6.jpg",
+        "tp": "428ebe246.jpg"
+      },
+      "3": {
+        "fn": "744e852d6.jpg",
+        "fp": "744e852d6.jpg",
+        "tp": "744e852d6.jpg"
+      }
+    },
+    "epoch": 24,
+    "train_loss": 0.01734214805327461,
+    "train_samples": 8792,
+    "train_patches": 8792,
+    "train_batches": 2198,
+    "val_samples": 1881,
+    "val_patches": 7524,
+    "learning_rate": 0.0003,
+    "train_seconds": 1290.9204322919977,
+    "validation_seconds": 346.5673405830021,
+    "epoch_seconds": 1637.487831874998,
+    "gradient_finite": true,
+    "mps_current_allocated_bytes": 557744128,
+    "mps_driver_allocated_bytes": 2300936192,
+    "early_stopping_stale": 6,
+    "best_val_loss_epoch": 18,
+    "best_macro_dice_epoch": 24
+  },
+  "frozen_inference": {
+    "threshold": 0.5,
+    "minimum_connected_component_area": 0,
+    "input_rgb_float32_scale": "uint8 / 255",
+    "resize": false,
+    "tile_hw": [
+      256,
+      512
+    ],
+    "stride_hw": [
+      256,
+      384
+    ],
+    "tail_coverage": "append last start at dimension-tile; average overlapping logits"
+  },
+  "manifest_hashes": {
+    "train": "ba7887219c3d07215f44b704f053dff6bfece91375bd7a5178353af156152c89",
+    "val": "593cf50fe4c05f2d788f3fb8a15a55cf2d07ae1e5644a665c81db3fe20af9470",
+    "test": "79ebfdf0244af6bf001f84de3443166fa84f2d05591a76fdea20684a66120826"
+  },
+  "test_manifest_hash_provenance": "carried forward from pre-existing E2 frozen-manifest verification and matched before test evaluation",
+  "onnx_artifact": {
+    "path": "reports/final-delivery/e0_epoch24_best_macro.onnx",
+    "sha256": "27938b3ca9a79a9fe5a2e26b881014e32ee8958b36879d1b905b4bd30fab4ffe",
+    "opset": 17,
+    "size_bytes": 57091677
+  },
+  "dependencies": {
+    "python": "3.13.5",
+    "packages": {
+      "contourpy": "1.4.0",
+      "cycler": "0.12.1",
+      "filelock": "4.2.4",
+      "flatbuffers": "25.12.19",
+      "fonttools": "4.67.0",
+      "fsspec": "2026.9.0",
+      "iniconfig": "2.3.1",
+      "Jinja2": "3.1.6",
+      "kiwisolver": "1.5.1",
+      "MarkupSafe": "3.0.4",
+      "matplotlib": "3.11.2",
+      "ml_dtypes": "0.6.0",
+      "mpmath": "1.3.0",
+      "networkx": "3.7",
+      "numpy": "2.5.4",
+      "onnx": "1.23.2",
+      "onnxruntime": "1.31.0",
+      "opencv-python": "5.0.0.93",
+      "packaging": "26.3",
+      "pandas": "3.0.6",
+      "pillow": "13.0.0",
+      "pip": "25.1.1",
+      "pluggy": "1.7.0",
+      "protobuf": "7.36.2",
+      "Pygments": "2.21.0",
+      "pyparsing": "3.3.3",
+      "pytest": "9.1.1",
+      "python-dateutil": "2.9.0.post0",
+      "PyYAML": "6.0.3",
+      "setuptools": "84.2.0",
+      "six": "1.17.0",
+      "sympy": "1.14.0",
+      "torch": "2.14.1",
+      "typing_extensions": "4.16.0"
+    }
+  },
+  "test_evaluation": {
+    "status": "completed once after all freeze/parity gates passed",
+    "report": "reports/final-delivery/test_report.md",
+    "used_for_model_or_threshold_selection": false
+  }
+}

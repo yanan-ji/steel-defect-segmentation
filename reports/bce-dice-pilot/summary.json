@@ -1,0 +1,30 @@
+{
+  "device": "mps",
+  "epochs": 2,
+  "elapsed_seconds": 12.050718332999963,
+  "mps_current_allocated_bytes": 549208576,
+  "best_val_bce_epoch": 2,
+  "best_val_total_epoch": 2,
+  "best_macro_dice_epoch": 1,
+  "selection_rule": "Strict improvement; ties keep earlier epoch",
+  "coverage": {
+    "train": {
+      "normal": 4,
+      "class_images": [
+        2,
+        1,
+        9,
+        2
+      ]
+    },
+    "val": {
+      "normal": 5,
+      "class_images": [
+        2,
+        2,
+        4,
+        2
+      ]
+    }
+  }
+}

@@ -1,0 +1,134 @@
+[
+  {
+    "dice_per_class": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "iou_per_class": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "precision_per_class": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "recall_per_class": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "macro_dice": 0.0,
+    "empty_image_false_positive_rate": 0.0,
+    "tp": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "fp": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "fn": [
+      4132.0,
+      6420.0,
+      64886.0,
+      29840.0
+    ],
+    "val_bce_loss": 0.35127857079108554,
+    "val_dice_loss": 0.5572958489259084,
+    "val_total_loss": 0.9085744048158327,
+    "prediction_positive_pixel_ratio_per_class": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "full_background_prediction_image_ratio": 1.0,
+    "epoch": 1,
+    "train_bce_loss": 0.5147064030170441,
+    "train_dice_loss": 0.928226038813591,
+    "train_total_loss": 1.4429324269294739,
+    "gradient_finite": true,
+    "train_samples": 16,
+    "train_batches": 4,
+    "val_samples": 12,
+    "val_tiles": 48,
+    "learning_rate": 0.0003
+  },
+  {
+    "dice_per_class": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "iou_per_class": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "precision_per_class": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "recall_per_class": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "macro_dice": 0.0,
+    "empty_image_false_positive_rate": 0.0,
+    "tp": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "fp": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "fn": [
+      4132.0,
+      6420.0,
+      64886.0,
+      29840.0
+    ],
+    "val_bce_loss": 0.10025129636778729,
+    "val_dice_loss": 0.583164910475413,
+    "val_total_loss": 0.6834162015657057,
+    "prediction_positive_pixel_ratio_per_class": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "full_background_prediction_image_ratio": 1.0,
+    "epoch": 2,
+    "train_bce_loss": 0.07476497534662485,
+    "train_dice_loss": 0.9916448444128036,
+    "train_total_loss": 1.0664098262786865,
+    "gradient_finite": true,
+    "train_samples": 16,
+    "train_batches": 4,
+    "val_samples": 12,
+    "val_tiles": 48,
+    "learning_rate": 0.0003
+  }
+]

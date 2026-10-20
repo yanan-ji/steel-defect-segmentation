@@ -1,0 +1,553 @@
+2026-10-20 00:13:07 E2 formal start epoch=1, train=8792, val=1881, device=mps
+2026-10-20 00:14:49 epoch 1 train batches 200/2198
+2026-10-20 00:17:17 epoch 1 train batches 400/2198
+2026-10-20 00:17:18 epoch 1 resumable checkpoint at batch 400/2198
+2026-10-20 00:19:32 epoch 1 train batches 600/2198
+2026-10-20 00:21:48 epoch 1 train batches 800/2198
+2026-10-20 00:21:49 epoch 1 resumable checkpoint at batch 800/2198
+2026-10-20 00:24:33 epoch 1 train batches 1000/2198
+2026-10-20 00:27:20 epoch 1 train batches 1200/2198
+2026-10-20 00:27:21 epoch 1 resumable checkpoint at batch 1200/2198
+2026-10-20 00:30:10 epoch 1 train batches 1400/2198
+2026-10-20 00:32:36 epoch 1 train batches 1600/2198
+2026-10-20 00:32:37 epoch 1 resumable checkpoint at batch 1600/2198
+2026-10-20 00:35:01 epoch 1 train batches 1800/2198
+2026-10-20 00:37:21 epoch 1 train batches 2000/2198
+2026-10-20 00:37:21 epoch 1 resumable checkpoint at batch 2000/2198
+2026-10-20 00:40:36 epoch 1 validation images 200/1881
+2026-10-20 00:41:21 epoch 1 validation images 400/1881
+2026-10-20 00:42:07 epoch 1 validation images 600/1881
+2026-10-20 00:42:53 epoch 1 validation images 800/1881
+2026-10-20 00:43:38 epoch 1 validation images 1000/1881
+2026-10-20 00:44:21 epoch 1 validation images 1200/1881
+2026-10-20 00:45:04 epoch 1 validation images 1400/1881
+2026-10-20 00:45:49 epoch 1 validation images 1600/1881
+2026-10-20 00:46:30 epoch 1 validation images 1800/1881
+2026-10-20 00:46:48 epoch 1 complete: train_bce=0.040026, val_bce=0.037801, macro_dice=0.002096, stale=0
+2026-10-20 01:22:16 E2 formal start epoch=2, train=8792, val=1881, device=mps
+2026-10-20 01:24:00 epoch 2 train batches 200/2198
+2026-10-20 01:26:23 epoch 2 train batches 400/2198
+2026-10-20 01:26:24 epoch 2 resumable checkpoint at batch 400/2198
+2026-10-20 01:28:29 epoch 2 train batches 600/2198
+2026-10-20 01:30:39 epoch 2 train batches 800/2198
+2026-10-20 01:30:40 epoch 2 resumable checkpoint at batch 800/2198
+2026-10-20 01:32:51 epoch 2 train batches 1000/2198
+2026-10-20 01:35:06 epoch 2 train batches 1200/2198
+2026-10-20 01:35:06 epoch 2 resumable checkpoint at batch 1200/2198
+2026-10-20 01:37:30 epoch 2 train batches 1400/2198
+2026-10-20 01:39:58 epoch 2 train batches 1600/2198
+2026-10-20 01:39:58 epoch 2 resumable checkpoint at batch 1600/2198
+2026-10-20 01:42:25 epoch 2 train batches 1800/2198
+2026-10-20 01:44:54 epoch 2 train batches 2000/2198
+2026-10-20 01:44:56 epoch 2 resumable checkpoint at batch 2000/2198
+2026-10-20 01:48:01 epoch 2 validation images 200/1881
+2026-10-20 01:48:42 epoch 2 validation images 400/1881
+2026-10-20 01:49:22 epoch 2 validation images 600/1881
+2026-10-20 01:50:03 epoch 2 validation images 800/1881
+2026-10-20 01:50:44 epoch 2 validation images 1000/1881
+2026-10-20 01:51:24 epoch 2 validation images 1200/1881
+2026-10-20 01:52:05 epoch 2 validation images 1400/1881
+2026-10-20 01:52:46 epoch 2 validation images 1600/1881
+2026-10-20 01:53:27 epoch 2 validation images 1800/1881
+2026-10-20 01:53:48 epoch 2 complete: train_bce=0.033111, val_bce=0.027479, macro_dice=0.073806, stale=0
+2026-10-20 01:56:08 epoch 3 train batches 200/2198
+2026-10-20 01:58:15 epoch 3 train batches 400/2198
+2026-10-20 01:58:15 epoch 3 resumable checkpoint at batch 400/2198
+2026-10-20 02:00:25 epoch 3 train batches 600/2198
+2026-10-20 02:02:27 epoch 3 train batches 800/2198
+2026-10-20 02:02:28 epoch 3 resumable checkpoint at batch 800/2198
+2026-10-20 02:04:35 epoch 3 train batches 1000/2198
+2026-10-20 02:06:41 epoch 3 train batches 1200/2198
+2026-10-20 02:06:41 epoch 3 resumable checkpoint at batch 1200/2198
+2026-10-20 02:08:48 epoch 3 train batches 1400/2198
+2026-10-20 02:10:52 epoch 3 train batches 1600/2198
+2026-10-20 02:10:52 epoch 3 resumable checkpoint at batch 1600/2198
+2026-10-20 02:12:58 epoch 3 train batches 1800/2198
+2026-10-20 02:15:01 epoch 3 train batches 2000/2198
+2026-10-20 02:15:02 epoch 3 resumable checkpoint at batch 2000/2198
+2026-10-20 02:17:47 epoch 3 validation images 200/1881
+2026-10-20 02:18:27 epoch 3 validation images 400/1881
+2026-10-20 02:19:07 epoch 3 validation images 600/1881
+2026-10-20 02:19:47 epoch 3 validation images 800/1881
+2026-10-20 02:20:27 epoch 3 validation images 1000/1881
+2026-10-20 02:21:08 epoch 3 validation images 1200/1881
+2026-10-20 02:21:48 epoch 3 validation images 1400/1881
+2026-10-20 02:22:28 epoch 3 validation images 1600/1881
+2026-10-20 02:23:11 epoch 3 validation images 1800/1881
+2026-10-20 02:23:30 epoch 3 complete: train_bce=0.030081, val_bce=0.033012, macro_dice=0.106873, stale=1
+2026-10-20 02:25:45 epoch 4 train batches 200/2198
+2026-10-20 02:27:49 epoch 4 train batches 400/2198
+2026-10-20 02:27:50 epoch 4 resumable checkpoint at batch 400/2198
+2026-10-20 02:29:50 epoch 4 train batches 600/2198
+2026-10-20 02:31:48 epoch 4 train batches 800/2198
+2026-10-20 02:31:48 epoch 4 resumable checkpoint at batch 800/2198
+2026-10-20 02:33:47 epoch 4 train batches 1000/2198
+2026-10-20 02:35:45 epoch 4 train batches 1200/2198
+2026-10-20 02:35:45 epoch 4 resumable checkpoint at batch 1200/2198
+2026-10-20 02:37:45 epoch 4 train batches 1400/2198
+2026-10-20 02:39:40 epoch 4 train batches 1600/2198
+2026-10-20 02:39:41 epoch 4 resumable checkpoint at batch 1600/2198
+2026-10-20 02:41:40 epoch 4 train batches 1800/2198
+2026-10-20 02:43:36 epoch 4 train batches 2000/2198
+2026-10-20 02:43:37 epoch 4 resumable checkpoint at batch 2000/2198
+2026-10-20 02:46:12 epoch 4 validation images 200/1881
+2026-10-20 02:46:49 epoch 4 validation images 400/1881
+2026-10-20 02:47:26 epoch 4 validation images 600/1881
+2026-10-20 02:48:04 epoch 4 validation images 800/1881
+2026-10-20 02:48:42 epoch 4 validation images 1000/1881
+2026-10-20 02:49:20 epoch 4 validation images 1200/1881
+2026-10-20 02:49:57 epoch 4 validation images 1400/1881
+2026-10-20 02:50:35 epoch 4 validation images 1600/1881
+2026-10-20 02:51:12 epoch 4 validation images 1800/1881
+2026-10-20 02:51:29 epoch 4 complete: train_bce=0.027464, val_bce=0.025880, macro_dice=0.118470, stale=0
+2026-10-20 02:53:34 epoch 5 train batches 200/2198
+2026-10-20 02:55:31 epoch 5 train batches 400/2198
+2026-10-20 02:55:32 epoch 5 resumable checkpoint at batch 400/2198
+2026-10-20 02:57:32 epoch 5 train batches 600/2198
+2026-10-20 02:59:28 epoch 5 train batches 800/2198
+2026-10-20 02:59:28 epoch 5 resumable checkpoint at batch 800/2198
+2026-10-20 03:01:27 epoch 5 train batches 1000/2198
+2026-10-20 03:03:23 epoch 5 train batches 1200/2198
+2026-10-20 03:03:23 epoch 5 resumable checkpoint at batch 1200/2198
+2026-10-20 03:05:22 epoch 5 train batches 1400/2198
+2026-10-20 03:07:18 epoch 5 train batches 1600/2198
+2026-10-20 03:07:18 epoch 5 resumable checkpoint at batch 1600/2198
+2026-10-20 03:09:17 epoch 5 train batches 1800/2198
+2026-10-20 03:11:16 epoch 5 train batches 2000/2198
+2026-10-20 03:11:16 epoch 5 resumable checkpoint at batch 2000/2198
+2026-10-20 03:13:55 epoch 5 validation images 200/1881
+2026-10-20 03:14:33 epoch 5 validation images 400/1881
+2026-10-20 03:15:10 epoch 5 validation images 600/1881
+2026-10-20 03:15:48 epoch 5 validation images 800/1881
+2026-10-20 03:16:25 epoch 5 validation images 1000/1881
+2026-10-20 03:17:03 epoch 5 validation images 1200/1881
+2026-10-20 03:17:39 epoch 5 validation images 1400/1881
+2026-10-20 03:18:18 epoch 5 validation images 1600/1881
+2026-10-20 03:18:54 epoch 5 validation images 1800/1881
+2026-10-20 03:19:11 epoch 5 complete: train_bce=0.026480, val_bce=0.023604, macro_dice=0.113600, stale=0
+2026-10-20 03:21:13 epoch 6 train batches 200/2198
+2026-10-20 03:23:13 epoch 6 train batches 400/2198
+2026-10-20 03:23:14 epoch 6 resumable checkpoint at batch 400/2198
+2026-10-20 03:25:12 epoch 6 train batches 600/2198
+2026-10-20 03:27:07 epoch 6 train batches 800/2198
+2026-10-20 03:27:08 epoch 6 resumable checkpoint at batch 800/2198
+2026-10-20 03:29:04 epoch 6 train batches 1000/2198
+2026-10-20 03:30:59 epoch 6 train batches 1200/2198
+2026-10-20 03:30:59 epoch 6 resumable checkpoint at batch 1200/2198
+2026-10-20 03:32:57 epoch 6 train batches 1400/2198
+2026-10-20 03:34:52 epoch 6 train batches 1600/2198
+2026-10-20 03:34:52 epoch 6 resumable checkpoint at batch 1600/2198
+2026-10-20 03:36:49 epoch 6 train batches 1800/2198
+2026-10-20 03:38:44 epoch 6 train batches 2000/2198
+2026-10-20 03:38:44 epoch 6 resumable checkpoint at batch 2000/2198
+2026-10-20 03:41:17 epoch 6 validation images 200/1881
+2026-10-20 03:41:54 epoch 6 validation images 400/1881
+2026-10-20 03:42:30 epoch 6 validation images 600/1881
+2026-10-20 03:43:08 epoch 6 validation images 800/1881
+2026-10-20 03:43:44 epoch 6 validation images 1000/1881
+2026-10-20 03:44:21 epoch 6 validation images 1200/1881
+2026-10-20 03:44:58 epoch 6 validation images 1400/1881
+2026-10-20 03:45:35 epoch 6 validation images 1600/1881
+2026-10-20 03:46:12 epoch 6 validation images 1800/1881
+2026-10-20 03:46:27 epoch 6 complete: train_bce=0.024962, val_bce=0.028448, macro_dice=0.037093, stale=1
+2026-10-20 03:48:28 epoch 7 train batches 200/2198
+2026-10-20 03:50:23 epoch 7 train batches 400/2198
+2026-10-20 03:50:23 epoch 7 resumable checkpoint at batch 400/2198
+2026-10-20 03:52:21 epoch 7 train batches 600/2198
+2026-10-20 03:54:16 epoch 7 train batches 800/2198
+2026-10-20 03:54:17 epoch 7 resumable checkpoint at batch 800/2198
+2026-10-20 03:56:13 epoch 7 train batches 1000/2198
+2026-10-20 03:58:09 epoch 7 train batches 1200/2198
+2026-10-20 03:58:09 epoch 7 resumable checkpoint at batch 1200/2198
+2026-10-20 04:00:10 epoch 7 train batches 1400/2198
+2026-10-20 04:02:10 epoch 7 train batches 1600/2198
+2026-10-20 04:02:11 epoch 7 resumable checkpoint at batch 1600/2198
+2026-10-20 04:04:09 epoch 7 train batches 1800/2198
+2026-10-20 04:06:04 epoch 7 train batches 2000/2198
+2026-10-20 04:06:05 epoch 7 resumable checkpoint at batch 2000/2198
+2026-10-20 04:08:40 epoch 7 validation images 200/1881
+2026-10-20 04:09:16 epoch 7 validation images 400/1881
+2026-10-20 04:09:54 epoch 7 validation images 600/1881
+2026-10-20 04:10:32 epoch 7 validation images 800/1881
+2026-10-20 04:11:10 epoch 7 validation images 1000/1881
+2026-10-20 04:11:47 epoch 7 validation images 1200/1881
+2026-10-20 04:12:25 epoch 7 validation images 1400/1881
+2026-10-20 04:13:01 epoch 7 validation images 1600/1881
+2026-10-20 04:13:38 epoch 7 validation images 1800/1881
+2026-10-20 04:13:54 epoch 7 complete: train_bce=0.023979, val_bce=0.021477, macro_dice=0.130348, stale=0
+2026-10-20 04:15:56 epoch 8 train batches 200/2198
+2026-10-20 04:17:53 epoch 8 train batches 400/2198
+2026-10-20 04:17:54 epoch 8 resumable checkpoint at batch 400/2198
+2026-10-20 04:19:52 epoch 8 train batches 600/2198
+2026-10-20 04:21:50 epoch 8 train batches 800/2198
+2026-10-20 04:21:51 epoch 8 resumable checkpoint at batch 800/2198
+2026-10-20 04:23:49 epoch 8 train batches 1000/2198
+2026-10-20 04:25:43 epoch 8 train batches 1200/2198
+2026-10-20 04:25:44 epoch 8 resumable checkpoint at batch 1200/2198
+2026-10-20 04:27:42 epoch 8 train batches 1400/2198
+2026-10-20 04:29:36 epoch 8 train batches 1600/2198
+2026-10-20 04:29:37 epoch 8 resumable checkpoint at batch 1600/2198
+2026-10-20 04:31:33 epoch 8 train batches 1800/2198
+2026-10-20 04:33:29 epoch 8 train batches 2000/2198
+2026-10-20 04:33:29 epoch 8 resumable checkpoint at batch 2000/2198
+2026-10-20 04:36:02 epoch 8 validation images 200/1881
+2026-10-20 04:36:39 epoch 8 validation images 400/1881
+2026-10-20 04:37:17 epoch 8 validation images 600/1881
+2026-10-20 04:37:53 epoch 8 validation images 800/1881
+2026-10-20 04:38:30 epoch 8 validation images 1000/1881
+2026-10-20 04:39:06 epoch 8 validation images 1200/1881
+2026-10-20 04:39:43 epoch 8 validation images 1400/1881
+2026-10-20 04:40:20 epoch 8 validation images 1600/1881
+2026-10-20 04:40:56 epoch 8 validation images 1800/1881
+2026-10-20 04:41:12 epoch 8 complete: train_bce=0.023431, val_bce=0.022248, macro_dice=0.113067, stale=1
+2026-10-20 04:43:14 epoch 9 train batches 200/2198
+2026-10-20 04:45:08 epoch 9 train batches 400/2198
+2026-10-20 04:45:08 epoch 9 resumable checkpoint at batch 400/2198
+2026-10-20 04:47:06 epoch 9 train batches 600/2198
+2026-10-20 04:49:09 epoch 9 train batches 800/2198
+2026-10-20 04:49:10 epoch 9 resumable checkpoint at batch 800/2198
+2026-10-20 04:51:08 epoch 9 train batches 1000/2198
+2026-10-20 04:53:05 epoch 9 train batches 1200/2198
+2026-10-20 04:53:05 epoch 9 resumable checkpoint at batch 1200/2198
+2026-10-20 04:55:02 epoch 9 train batches 1400/2198
+2026-10-20 04:56:58 epoch 9 train batches 1600/2198
+2026-10-20 04:56:59 epoch 9 resumable checkpoint at batch 1600/2198
+2026-10-20 04:58:56 epoch 9 train batches 1800/2198
+2026-10-20 05:01:00 epoch 9 train batches 2000/2198
+2026-10-20 05:01:00 epoch 9 resumable checkpoint at batch 2000/2198
+2026-10-20 05:03:41 epoch 9 validation images 200/1881
+2026-10-20 05:04:19 epoch 9 validation images 400/1881
+2026-10-20 05:04:58 epoch 9 validation images 600/1881
+2026-10-20 05:05:37 epoch 9 validation images 800/1881
+2026-10-20 05:06:15 epoch 9 validation images 1000/1881
+2026-10-20 05:06:52 epoch 9 validation images 1200/1881
+2026-10-20 05:07:30 epoch 9 validation images 1400/1881
+2026-10-20 05:08:07 epoch 9 validation images 1600/1881
+2026-10-20 05:08:45 epoch 9 validation images 1800/1881
+2026-10-20 05:09:02 epoch 9 complete: train_bce=0.022911, val_bce=0.021332, macro_dice=0.139523, stale=0
+2026-10-20 05:11:04 epoch 10 train batches 200/2198
+2026-10-20 05:13:00 epoch 10 train batches 400/2198
+2026-10-20 05:13:00 epoch 10 resumable checkpoint at batch 400/2198
+2026-10-20 05:14:58 epoch 10 train batches 600/2198
+2026-10-20 05:16:53 epoch 10 train batches 800/2198
+2026-10-20 05:16:54 epoch 10 resumable checkpoint at batch 800/2198
+2026-10-20 05:18:52 epoch 10 train batches 1000/2198
+2026-10-20 05:20:48 epoch 10 train batches 1200/2198
+2026-10-20 05:20:49 epoch 10 resumable checkpoint at batch 1200/2198
+2026-10-20 05:22:47 epoch 10 train batches 1400/2198
+2026-10-20 05:24:41 epoch 10 train batches 1600/2198
+2026-10-20 05:24:42 epoch 10 resumable checkpoint at batch 1600/2198
+2026-10-20 05:26:38 epoch 10 train batches 1800/2198
+2026-10-20 05:28:33 epoch 10 train batches 2000/2198
+2026-10-20 05:28:33 epoch 10 resumable checkpoint at batch 2000/2198
+2026-10-20 05:31:06 epoch 10 validation images 200/1881
+2026-10-20 05:31:43 epoch 10 validation images 400/1881
+2026-10-20 05:32:20 epoch 10 validation images 600/1881
+2026-10-20 05:32:57 epoch 10 validation images 800/1881
+2026-10-20 05:33:34 epoch 10 validation images 1000/1881
+2026-10-20 05:34:11 epoch 10 validation images 1200/1881
+2026-10-20 05:34:48 epoch 10 validation images 1400/1881
+2026-10-20 05:35:26 epoch 10 validation images 1600/1881
+2026-10-20 05:36:04 epoch 10 validation images 1800/1881
+2026-10-20 05:36:20 epoch 10 complete: train_bce=0.021160, val_bce=0.021962, macro_dice=0.163153, stale=1
+2026-10-20 05:38:28 epoch 11 train batches 200/2198
+2026-10-20 05:40:28 epoch 11 train batches 400/2198
+2026-10-20 05:40:29 epoch 11 resumable checkpoint at batch 400/2198
+2026-10-20 05:42:26 epoch 11 train batches 600/2198
+2026-10-20 05:44:22 epoch 11 train batches 800/2198
+2026-10-20 05:44:23 epoch 11 resumable checkpoint at batch 800/2198
+2026-10-20 05:46:19 epoch 11 train batches 1000/2198
+2026-10-20 05:48:14 epoch 11 train batches 1200/2198
+2026-10-20 05:48:15 epoch 11 resumable checkpoint at batch 1200/2198
+2026-10-20 05:50:12 epoch 11 train batches 1400/2198
+2026-10-20 05:52:08 epoch 11 train batches 1600/2198
+2026-10-20 05:52:09 epoch 11 resumable checkpoint at batch 1600/2198
+2026-10-20 05:54:07 epoch 11 train batches 1800/2198
+2026-10-20 05:56:02 epoch 11 train batches 2000/2198
+2026-10-20 05:56:03 epoch 11 resumable checkpoint at batch 2000/2198
+2026-10-20 05:58:35 epoch 11 validation images 200/1881
+2026-10-20 05:59:12 epoch 11 validation images 400/1881
+2026-10-20 05:59:50 epoch 11 validation images 600/1881
+2026-10-20 06:00:27 epoch 11 validation images 800/1881
+2026-10-20 06:01:04 epoch 11 validation images 1000/1881
+2026-10-20 06:01:41 epoch 11 validation images 1200/1881
+2026-10-20 06:02:17 epoch 11 validation images 1400/1881
+2026-10-20 06:02:54 epoch 11 validation images 1600/1881
+2026-10-20 06:03:30 epoch 11 validation images 1800/1881
+2026-10-20 06:03:46 epoch 11 complete: train_bce=0.021741, val_bce=0.020368, macro_dice=0.154340, stale=0
+2026-10-20 06:05:48 epoch 12 train batches 200/2198
+2026-10-20 06:07:44 epoch 12 train batches 400/2198
+2026-10-20 06:07:44 epoch 12 resumable checkpoint at batch 400/2198
+2026-10-20 06:09:42 epoch 12 train batches 600/2198
+2026-10-20 06:11:37 epoch 12 train batches 800/2198
+2026-10-20 06:11:37 epoch 12 resumable checkpoint at batch 800/2198
+2026-10-20 06:13:33 epoch 12 train batches 1000/2198
+2026-10-20 06:15:28 epoch 12 train batches 1200/2198
+2026-10-20 06:15:29 epoch 12 resumable checkpoint at batch 1200/2198
+2026-10-20 06:17:24 epoch 12 train batches 1400/2198
+2026-10-20 06:19:19 epoch 12 train batches 1600/2198
+2026-10-20 06:19:19 epoch 12 resumable checkpoint at batch 1600/2198
+2026-10-20 06:21:16 epoch 12 train batches 1800/2198
+2026-10-20 06:23:11 epoch 12 train batches 2000/2198
+2026-10-20 06:23:11 epoch 12 resumable checkpoint at batch 2000/2198
+2026-10-20 06:25:43 epoch 12 validation images 200/1881
+2026-10-20 06:26:20 epoch 12 validation images 400/1881
+2026-10-20 06:26:58 epoch 12 validation images 600/1881
+2026-10-20 06:27:36 epoch 12 validation images 800/1881
+2026-10-20 06:28:14 epoch 12 validation images 1000/1881
+2026-10-20 06:28:52 epoch 12 validation images 1200/1881
+2026-10-20 06:29:28 epoch 12 validation images 1400/1881
+2026-10-20 06:30:04 epoch 12 validation images 1600/1881
+2026-10-20 06:30:40 epoch 12 validation images 1800/1881
+2026-10-20 06:30:56 epoch 12 complete: train_bce=0.020623, val_bce=0.022682, macro_dice=0.196387, stale=1
+2026-10-20 06:32:58 epoch 13 train batches 200/2198
+2026-10-20 06:34:53 epoch 13 train batches 400/2198
+2026-10-20 06:34:53 epoch 13 resumable checkpoint at batch 400/2198
+2026-10-20 06:36:50 epoch 13 train batches 600/2198
+2026-10-20 06:38:46 epoch 13 train batches 800/2198
+2026-10-20 06:38:46 epoch 13 resumable checkpoint at batch 800/2198
+2026-10-20 06:40:44 epoch 13 train batches 1000/2198
+2026-10-20 06:42:38 epoch 13 train batches 1200/2198
+2026-10-20 06:42:39 epoch 13 resumable checkpoint at batch 1200/2198
+2026-10-20 06:44:35 epoch 13 train batches 1400/2198
+2026-10-20 06:46:30 epoch 13 train batches 1600/2198
+2026-10-20 06:46:30 epoch 13 resumable checkpoint at batch 1600/2198
+2026-10-20 06:48:27 epoch 13 train batches 1800/2198
+2026-10-20 06:50:22 epoch 13 train batches 2000/2198
+2026-10-20 06:50:23 epoch 13 resumable checkpoint at batch 2000/2198
+2026-10-20 06:52:57 epoch 13 validation images 200/1881
+2026-10-20 06:53:33 epoch 13 validation images 400/1881
+2026-10-20 06:54:11 epoch 13 validation images 600/1881
+2026-10-20 06:54:48 epoch 13 validation images 800/1881
+2026-10-20 06:55:25 epoch 13 validation images 1000/1881
+2026-10-20 06:56:02 epoch 13 validation images 1200/1881
+2026-10-20 06:56:39 epoch 13 validation images 1400/1881
+2026-10-20 06:57:15 epoch 13 validation images 1600/1881
+2026-10-20 06:57:52 epoch 13 validation images 1800/1881
+2026-10-20 06:58:07 epoch 13 complete: train_bce=0.020581, val_bce=0.024887, macro_dice=0.161653, stale=2
+2026-10-20 07:00:08 epoch 14 train batches 200/2198
+2026-10-20 07:02:06 epoch 14 train batches 400/2198
+2026-10-20 07:02:06 epoch 14 resumable checkpoint at batch 400/2198
+2026-10-20 07:04:04 epoch 14 train batches 600/2198
+2026-10-20 07:06:00 epoch 14 train batches 800/2198
+2026-10-20 07:06:00 epoch 14 resumable checkpoint at batch 800/2198
+2026-10-20 07:07:58 epoch 14 train batches 1000/2198
+2026-10-20 07:09:53 epoch 14 train batches 1200/2198
+2026-10-20 07:09:54 epoch 14 resumable checkpoint at batch 1200/2198
+2026-10-20 07:11:52 epoch 14 train batches 1400/2198
+2026-10-20 07:13:48 epoch 14 train batches 1600/2198
+2026-10-20 07:13:48 epoch 14 resumable checkpoint at batch 1600/2198
+2026-10-20 07:15:51 epoch 14 train batches 1800/2198
+2026-10-20 07:17:47 epoch 14 train batches 2000/2198
+2026-10-20 07:17:47 epoch 14 resumable checkpoint at batch 2000/2198
+2026-10-20 07:20:24 epoch 14 validation images 200/1881
+2026-10-20 07:21:01 epoch 14 validation images 400/1881
+2026-10-20 07:21:40 epoch 14 validation images 600/1881
+2026-10-20 07:22:18 epoch 14 validation images 800/1881
+2026-10-20 07:22:55 epoch 14 validation images 1000/1881
+2026-10-20 07:23:33 epoch 14 validation images 1200/1881
+2026-10-20 07:24:09 epoch 14 validation images 1400/1881
+2026-10-20 07:24:46 epoch 14 validation images 1600/1881
+2026-10-20 07:25:22 epoch 14 validation images 1800/1881
+2026-10-20 07:25:39 epoch 14 complete: train_bce=0.020573, val_bce=0.020331, macro_dice=0.134347, stale=0
+2026-10-20 07:27:39 epoch 15 train batches 200/2198
+2026-10-20 07:29:34 epoch 15 train batches 400/2198
+2026-10-20 07:29:34 epoch 15 resumable checkpoint at batch 400/2198
+2026-10-20 07:31:32 epoch 15 train batches 600/2198
+2026-10-20 07:33:27 epoch 15 train batches 800/2198
+2026-10-20 07:33:27 epoch 15 resumable checkpoint at batch 800/2198
+2026-10-20 07:35:26 epoch 15 train batches 1000/2198
+2026-10-20 07:37:21 epoch 15 train batches 1200/2198
+2026-10-20 07:37:22 epoch 15 resumable checkpoint at batch 1200/2198
+2026-10-20 07:39:19 epoch 15 train batches 1400/2198
+2026-10-20 07:41:15 epoch 15 train batches 1600/2198
+2026-10-20 07:41:16 epoch 15 resumable checkpoint at batch 1600/2198
+2026-10-20 07:43:13 epoch 15 train batches 1800/2198
+2026-10-20 07:45:09 epoch 15 train batches 2000/2198
+2026-10-20 07:45:09 epoch 15 resumable checkpoint at batch 2000/2198
+2026-10-20 07:47:42 epoch 15 validation images 200/1881
+2026-10-20 07:48:19 epoch 15 validation images 400/1881
+2026-10-20 07:48:56 epoch 15 validation images 600/1881
+2026-10-20 07:49:34 epoch 15 validation images 800/1881
+2026-10-20 07:50:11 epoch 15 validation images 1000/1881
+2026-10-20 07:50:48 epoch 15 validation images 1200/1881
+2026-10-20 07:51:25 epoch 15 validation images 1400/1881
+2026-10-20 07:52:01 epoch 15 validation images 1600/1881
+2026-10-20 07:52:38 epoch 15 validation images 1800/1881
+2026-10-20 07:52:54 epoch 15 complete: train_bce=0.020160, val_bce=0.019875, macro_dice=0.166628, stale=0
+2026-10-20 07:54:55 epoch 16 train batches 200/2198
+2026-10-20 07:56:51 epoch 16 train batches 400/2198
+2026-10-20 07:56:51 epoch 16 resumable checkpoint at batch 400/2198
+2026-10-20 07:58:48 epoch 16 train batches 600/2198
+2026-10-20 08:00:44 epoch 16 train batches 800/2198
+2026-10-20 08:00:45 epoch 16 resumable checkpoint at batch 800/2198
+2026-10-20 08:02:43 epoch 16 train batches 1000/2198
+2026-10-20 08:04:42 epoch 16 train batches 1200/2198
+2026-10-20 08:04:43 epoch 16 resumable checkpoint at batch 1200/2198
+2026-10-20 08:06:48 epoch 16 train batches 1400/2198
+2026-10-20 08:08:43 epoch 16 train batches 1600/2198
+2026-10-20 08:08:44 epoch 16 resumable checkpoint at batch 1600/2198
+2026-10-20 08:10:41 epoch 16 train batches 1800/2198
+2026-10-20 08:12:38 epoch 16 train batches 2000/2198
+2026-10-20 08:12:38 epoch 16 resumable checkpoint at batch 2000/2198
+2026-10-20 08:15:09 epoch 16 validation images 200/1881
+2026-10-20 08:15:46 epoch 16 validation images 400/1881
+2026-10-20 08:16:23 epoch 16 validation images 600/1881
+2026-10-20 08:17:01 epoch 16 validation images 800/1881
+2026-10-20 08:17:38 epoch 16 validation images 1000/1881
+2026-10-20 08:18:14 epoch 16 validation images 1200/1881
+2026-10-20 08:18:51 epoch 16 validation images 1400/1881
+2026-10-20 08:19:27 epoch 16 validation images 1600/1881
+2026-10-20 08:20:04 epoch 16 validation images 1800/1881
+2026-10-20 08:20:21 epoch 16 complete: train_bce=0.019481, val_bce=0.018221, macro_dice=0.218425, stale=0
+2026-10-20 08:22:23 epoch 17 train batches 200/2198
+2026-10-20 08:24:18 epoch 17 train batches 400/2198
+2026-10-20 08:24:19 epoch 17 resumable checkpoint at batch 400/2198
+2026-10-20 08:26:14 epoch 17 train batches 600/2198
+2026-10-20 08:28:10 epoch 17 train batches 800/2198
+2026-10-20 08:28:10 epoch 17 resumable checkpoint at batch 800/2198
+2026-10-20 08:30:05 epoch 17 train batches 1000/2198
+2026-10-20 08:32:00 epoch 17 train batches 1200/2198
+2026-10-20 08:32:01 epoch 17 resumable checkpoint at batch 1200/2198
+2026-10-20 08:33:57 epoch 17 train batches 1400/2198
+2026-10-20 08:35:52 epoch 17 train batches 1600/2198
+2026-10-20 08:35:52 epoch 17 resumable checkpoint at batch 1600/2198
+2026-10-20 08:37:47 epoch 17 train batches 1800/2198
+2026-10-20 08:39:42 epoch 17 train batches 2000/2198
+2026-10-20 08:39:43 epoch 17 resumable checkpoint at batch 2000/2198
+2026-10-20 08:42:14 epoch 17 validation images 200/1881
+2026-10-20 08:42:51 epoch 17 validation images 400/1881
+2026-10-20 08:43:28 epoch 17 validation images 600/1881
+2026-10-20 08:44:05 epoch 17 validation images 800/1881
+2026-10-20 08:44:42 epoch 17 validation images 1000/1881
+2026-10-20 08:45:19 epoch 17 validation images 1200/1881
+2026-10-20 08:45:56 epoch 17 validation images 1400/1881
+2026-10-20 08:46:32 epoch 17 validation images 1600/1881
+2026-10-20 08:47:08 epoch 17 validation images 1800/1881
+2026-10-20 08:47:23 epoch 17 complete: train_bce=0.018356, val_bce=0.020177, macro_dice=0.211888, stale=1
+2026-10-20 08:49:22 epoch 18 train batches 200/2198
+2026-10-20 08:51:19 epoch 18 train batches 400/2198
+2026-10-20 08:51:19 epoch 18 resumable checkpoint at batch 400/2198
+2026-10-20 08:53:26 epoch 18 train batches 600/2198
+2026-10-20 08:55:25 epoch 18 train batches 800/2198
+2026-10-20 08:55:25 epoch 18 resumable checkpoint at batch 800/2198
+2026-10-20 08:57:26 epoch 18 train batches 1000/2198
+2026-10-20 08:59:32 epoch 18 train batches 1200/2198
+2026-10-20 08:59:32 epoch 18 resumable checkpoint at batch 1200/2198
+2026-10-20 09:01:37 epoch 18 train batches 1400/2198
+2026-10-20 09:03:41 epoch 18 train batches 1600/2198
+2026-10-20 09:03:42 epoch 18 resumable checkpoint at batch 1600/2198
+2026-10-20 09:05:45 epoch 18 train batches 1800/2198
+2026-10-20 09:07:51 epoch 18 train batches 2000/2198
+2026-10-20 09:07:52 epoch 18 resumable checkpoint at batch 2000/2198
+2026-10-20 09:10:42 epoch 18 validation images 200/1881
+2026-10-20 09:11:20 epoch 18 validation images 400/1881
+2026-10-20 09:11:59 epoch 18 validation images 600/1881
+2026-10-20 09:12:37 epoch 18 validation images 800/1881
+2026-10-20 09:13:16 epoch 18 validation images 1000/1881
+2026-10-20 09:13:55 epoch 18 validation images 1200/1881
+2026-10-20 09:14:36 epoch 18 validation images 1400/1881
+2026-10-20 09:15:17 epoch 18 validation images 1600/1881
+2026-10-20 09:15:57 epoch 18 validation images 1800/1881
+2026-10-20 09:16:13 epoch 18 complete: train_bce=0.018736, val_bce=0.022981, macro_dice=0.149292, stale=2
+2026-10-20 09:18:25 epoch 19 train batches 200/2198
+2026-10-20 09:20:28 epoch 19 train batches 400/2198
+2026-10-20 09:20:29 epoch 19 resumable checkpoint at batch 400/2198
+2026-10-20 09:22:34 epoch 19 train batches 600/2198
+2026-10-20 09:24:31 epoch 19 train batches 800/2198
+2026-10-20 09:24:32 epoch 19 resumable checkpoint at batch 800/2198
+2026-10-20 09:26:30 epoch 19 train batches 1000/2198
+2026-10-20 09:28:30 epoch 19 train batches 1200/2198
+2026-10-20 09:28:30 epoch 19 resumable checkpoint at batch 1200/2198
+2026-10-20 09:30:28 epoch 19 train batches 1400/2198
+2026-10-20 09:32:25 epoch 19 train batches 1600/2198
+2026-10-20 09:32:25 epoch 19 resumable checkpoint at batch 1600/2198
+2026-10-20 09:34:24 epoch 19 train batches 1800/2198
+2026-10-20 09:36:20 epoch 19 train batches 2000/2198
+2026-10-20 09:36:20 epoch 19 resumable checkpoint at batch 2000/2198
+2026-10-20 09:38:56 epoch 19 validation images 200/1881
+2026-10-20 09:39:34 epoch 19 validation images 400/1881
+2026-10-20 09:40:11 epoch 19 validation images 600/1881
+2026-10-20 09:40:49 epoch 19 validation images 800/1881
+2026-10-20 09:41:27 epoch 19 validation images 1000/1881
+2026-10-20 09:42:05 epoch 19 validation images 1200/1881
+2026-10-20 09:42:42 epoch 19 validation images 1400/1881
+2026-10-20 09:43:20 epoch 19 validation images 1600/1881
+2026-10-20 09:43:59 epoch 19 validation images 1800/1881
+2026-10-20 09:44:17 epoch 19 complete: train_bce=0.018444, val_bce=0.020208, macro_dice=0.247125, stale=3
+2026-10-20 09:46:33 epoch 20 train batches 200/2198
+2026-10-20 09:48:44 epoch 20 train batches 400/2198
+2026-10-20 09:48:44 epoch 20 resumable checkpoint at batch 400/2198
+2026-10-20 09:50:56 epoch 20 train batches 600/2198
+2026-10-20 09:53:08 epoch 20 train batches 800/2198
+2026-10-20 09:53:09 epoch 20 resumable checkpoint at batch 800/2198
+2026-10-20 09:55:18 epoch 20 train batches 1000/2198
+2026-10-20 09:57:14 epoch 20 train batches 1200/2198
+2026-10-20 09:57:15 epoch 20 resumable checkpoint at batch 1200/2198
+2026-10-20 09:59:12 epoch 20 train batches 1400/2198
+2026-10-20 10:01:11 epoch 20 train batches 1600/2198
+2026-10-20 10:01:11 epoch 20 resumable checkpoint at batch 1600/2198
+2026-10-20 10:03:09 epoch 20 train batches 1800/2198
+2026-10-20 10:05:06 epoch 20 train batches 2000/2198
+2026-10-20 10:05:06 epoch 20 resumable checkpoint at batch 2000/2198
+2026-10-20 10:07:40 epoch 20 validation images 200/1881
+2026-10-20 10:08:19 epoch 20 validation images 400/1881
+2026-10-20 10:08:56 epoch 20 validation images 600/1881
+2026-10-20 10:09:33 epoch 20 validation images 800/1881
+2026-10-20 10:10:11 epoch 20 validation images 1000/1881
+2026-10-20 10:10:48 epoch 20 validation images 1200/1881
+2026-10-20 10:11:26 epoch 20 validation images 1400/1881
+2026-10-20 10:12:03 epoch 20 validation images 1600/1881
+2026-10-20 10:12:39 epoch 20 validation images 1800/1881
+2026-10-20 10:12:55 epoch 20 complete: train_bce=0.018336, val_bce=0.019030, macro_dice=0.318016, stale=4
+2026-10-20 10:14:56 epoch 21 train batches 200/2198
+2026-10-20 10:16:52 epoch 21 train batches 400/2198
+2026-10-20 10:16:53 epoch 21 resumable checkpoint at batch 400/2198
+2026-10-20 10:18:54 epoch 21 train batches 600/2198
+2026-10-20 10:20:52 epoch 21 train batches 800/2198
+2026-10-20 10:20:52 epoch 21 resumable checkpoint at batch 800/2198
+2026-10-20 10:22:53 epoch 21 train batches 1000/2198
+2026-10-20 10:24:50 epoch 21 train batches 1200/2198
+2026-10-20 10:24:50 epoch 21 resumable checkpoint at batch 1200/2198
+2026-10-20 10:26:49 epoch 21 train batches 1400/2198
+2026-10-20 10:28:48 epoch 21 train batches 1600/2198
+2026-10-20 10:28:48 epoch 21 resumable checkpoint at batch 1600/2198
+2026-10-20 10:30:49 epoch 21 train batches 1800/2198
+2026-10-20 10:32:48 epoch 21 train batches 2000/2198
+2026-10-20 10:32:49 epoch 21 resumable checkpoint at batch 2000/2198
+2026-10-20 10:35:25 epoch 21 validation images 200/1881
+2026-10-20 10:36:03 epoch 21 validation images 400/1881
+2026-10-20 10:36:41 epoch 21 validation images 600/1881
+2026-10-20 10:37:19 epoch 21 validation images 800/1881
+2026-10-20 10:37:57 epoch 21 validation images 1000/1881
+2026-10-20 10:38:34 epoch 21 validation images 1200/1881
+2026-10-20 10:39:11 epoch 21 validation images 1400/1881
+2026-10-20 10:39:47 epoch 21 validation images 1600/1881
+2026-10-20 10:40:24 epoch 21 validation images 1800/1881
+2026-10-20 10:40:39 epoch 21 complete: train_bce=0.017378, val_bce=0.021614, macro_dice=0.289243, stale=5
+2026-10-20 10:42:40 epoch 22 train batches 200/2198
+2026-10-20 10:44:39 epoch 22 train batches 400/2198
+2026-10-20 10:44:40 epoch 22 resumable checkpoint at batch 400/2198
+2026-10-20 10:46:40 epoch 22 train batches 600/2198
+2026-10-20 10:48:41 epoch 22 train batches 800/2198
+2026-10-20 10:48:41 epoch 22 resumable checkpoint at batch 800/2198
+2026-10-20 10:50:43 epoch 22 train batches 1000/2198
+2026-10-20 10:52:40 epoch 22 train batches 1200/2198
+2026-10-20 10:52:41 epoch 22 resumable checkpoint at batch 1200/2198
+2026-10-20 10:54:41 epoch 22 train batches 1400/2198
+2026-10-20 10:56:39 epoch 22 train batches 1600/2198
+2026-10-20 10:56:39 epoch 22 resumable checkpoint at batch 1600/2198
+2026-10-20 10:58:37 epoch 22 train batches 1800/2198
+2026-10-20 11:00:35 epoch 22 train batches 2000/2198
+2026-10-20 11:00:35 epoch 22 resumable checkpoint at batch 2000/2198
+2026-10-20 11:03:10 epoch 22 validation images 200/1881
+2026-10-20 11:03:48 epoch 22 validation images 400/1881
+2026-10-20 11:04:25 epoch 22 validation images 600/1881
+2026-10-20 11:05:03 epoch 22 validation images 800/1881
+2026-10-20 11:05:42 epoch 22 validation images 1000/1881
+2026-10-20 11:06:19 epoch 22 validation images 1200/1881
+2026-10-20 11:06:55 epoch 22 validation images 1400/1881
+2026-10-20 11:07:32 epoch 22 validation images 1600/1881
+2026-10-20 11:08:09 epoch 22 validation images 1800/1881
+2026-10-20 11:08:25 epoch 22 complete: train_bce=0.017940, val_bce=0.020065, macro_dice=0.277693, stale=6
+2026-10-20 11:08:25 early stopping after epoch 22

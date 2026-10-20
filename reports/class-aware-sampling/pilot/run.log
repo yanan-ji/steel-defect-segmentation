@@ -1,0 +1,2 @@
+2026-10-19 18:14:59 E2 Pilot epoch 1: train BCE=0.086568, val BCE=0.045474, macro Dice=0.000000, actual background=0.688
+2026-10-19 18:15:32 E2 Pilot epoch 2: train BCE=0.047516, val BCE=0.027702, macro Dice=0.000000, actual background=0.676

@@ -1,0 +1,29 @@
+data_root: severstal-steel-defect-detection
+train_csv: train.csv
+image_dir: train_images
+splits_dir: data/processed/splits
+seed: 42
+splits:
+  train: 0.7
+  val: 0.15
+  test: 0.15
+loader:
+  batch_size: 4
+  num_workers: 0
+  pin_memory: false
+patch:
+  height: 256
+  width: 512
+  stride_height: 256
+  stride_width: 512
+training:
+  epochs: 30
+  learning_rate: 0.0003
+  weight_decay: 1.0e-05
+  patience: 6
+  threshold: 0.5
+objective: bce-dice
+dice_weight: 1.0
+dice_absent_class_rule: exclude classes without positive target pixels; all-empty
+  batch Dice is zero
+early_stopping_monitor: full-image validation BCE

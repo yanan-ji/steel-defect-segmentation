@@ -1,0 +1,100 @@
+base_e0_config:
+  data_root: severstal-steel-defect-detection
+  train_csv: train.csv
+  image_dir: train_images
+  splits_dir: data/processed/splits
+  seed: 42
+  splits:
+    train: 0.7
+    val: 0.15
+    test: 0.15
+  loader:
+    batch_size: 4
+    num_workers: 0
+    pin_memory: false
+  patch:
+    height: 256
+    width: 512
+    stride_height: 256
+    stride_width: 512
+  training:
+    epochs: 30
+    learning_rate: 0.0003
+    weight_decay: 1.0e-05
+    patience: 6
+    threshold: 0.5
+experiment: E2 class-aware source-image sampling only
+unchanged: ResNet18 U-Net scratch seed 42, BCEWithLogitsLoss, AdamW lr 3e-4, batch
+  4, random 256x512 crop, full-image validation, 0.50 evaluation
+formal_early_stopping: full validation BCE, patience 6, max 30 epochs
+pilot_epochs: 2
+pilot_train_size: 256
+pilot_val_size: 12
+pilot_subset: prior E0 Pilot IDs plus stratified frozen-train IDs; not used for formal
+  model selection
+manifest_hashes:
+  train: ba7887219c3d07215f44b704f053dff6bfece91375bd7a5178353af156152c89
+  val: 593cf50fe4c05f2d788f3fb8a15a55cf2d07ae1e5644a665c81db3fe20af9470
+sampling_design:
+  scope: train labels only; four fixed 256x512 candidate tiles per training original
+  manifest_hashes:
+    train: ba7887219c3d07215f44b704f053dff6bfece91375bd7a5178353af156152c89
+    val: 593cf50fe4c05f2d788f3fb8a15a55cf2d07ae1e5644a665c81db3fe20af9470
+  seed: 42
+  frequency_weight: inverse square root of class patch frequency, additive for multilabel
+  strata: normal-source flag and count of positive candidate tiles; stratum draw counts
+    unchanged
+  replacement_fraction: 0.25
+  max_uses_per_image_per_epoch: 3
+  random_crop_after_source_sampling: unchanged E0 RandomCropOrResize(256,512)
+  index_statistics:
+    source_images: 8792
+    candidate_patches: 35168
+    background_patch_ratio: 0.7003810282074613
+    class_patch_ratio:
+    - 0.03210304822565969
+    - 0.006255686988171065
+    - 0.23364990900818927
+    - 0.03577115559599636
+    normal_source_ratio: 0.4698589626933576
+    positive_patch_count: 10537
+  planned_full_train_draw_statistics:
+    '1':
+      draws: 8792
+      unique_source_images: 7628
+      duplicate_draws: 1164
+      max_uses_of_one_image: 3
+      normal_source_ratio: 0.4698589626933576
+      candidate_background_patch_ratio: 0.7003810282074613
+      candidate_class_patch_ratio:
+      - 0.03858621474067334
+      - 0.008502047315741583
+      - 0.22054140127388536
+      - 0.04239649681528662
+    '2':
+      draws: 8792
+      unique_source_images: 7628
+      duplicate_draws: 1164
+      max_uses_of_one_image: 3
+      normal_source_ratio: 0.4698589626933576
+      candidate_background_patch_ratio: 0.7003810282074613
+      candidate_class_patch_ratio:
+      - 0.03597020018198362
+      - 0.008615787079162876
+      - 0.22409576888080074
+      - 0.04009326660600546
+  build_seconds: 2.3206115000066347
+pilot_candidate_index_statistics:
+  source_images: 256
+  candidate_patches: 1024
+  background_patch_ratio: 0.7109375
+  class_patch_ratio:
+  - 0.0556640625
+  - 0.0361328125
+  - 0.134765625
+  - 0.08203125
+  normal_source_ratio: 0.46875
+  positive_patch_count: 296
+pilot_id_hashes:
+  train: d4328d66ade06b611b34d1a0d6e1406f61ac2c702e1acac5763b3ac0d07971e3
+  val: fb781ead763009822f468609ce9feb37a9e6fa8c596ab1ccbd8f6df4a7305a2b

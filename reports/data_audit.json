@@ -1,0 +1,49 @@
+{
+  "images": 12568,
+  "no_defect_ratio": 0.4696053469127944,
+  "class_defect_images": {
+    "1": 897,
+    "2": 247,
+    "3": 5150,
+    "4": 801
+  },
+  "class_pixel_proportions": {
+    "1": 0.0007599535480113185,
+    "2": 0.00016210078889590627,
+    "3": 0.025507119978255787,
+    "4": 0.005348554643986712
+  },
+  "split_distribution": {
+    "train": {
+      "images": 8792,
+      "no_defect_images": 4131,
+      "class_defect_images": {
+        "1": 626,
+        "2": 170,
+        "3": 3602,
+        "4": 559
+      }
+    },
+    "val": {
+      "images": 1881,
+      "no_defect_images": 885,
+      "class_defect_images": {
+        "1": 133,
+        "2": 36,
+        "3": 770,
+        "4": 119
+      }
+    },
+    "test": {
+      "images": 1895,
+      "no_defect_images": 886,
+      "class_defect_images": {
+        "1": 138,
+        "2": 41,
+        "3": 778,
+        "4": 123
+      }
+    }
+  },
+  "cross_split_duplicates": 0
+}

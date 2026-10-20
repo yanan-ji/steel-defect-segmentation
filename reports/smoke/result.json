@@ -1,0 +1,30 @@
+{
+  "device": "mps",
+  "train_batches": 2,
+  "val_batches": 1,
+  "train_loss_mean": 0.6476341784000397,
+  "val_loss_mean": 0.6468629240989685,
+  "metrics": [
+    {
+      "dice_per_class": [
+        1.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "iou_per_class": [
+        1.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "positive_dice_per_class": [
+        NaN,
+        NaN,
+        NaN,
+        NaN
+      ],
+      "empty_image_false_positive_rate": 1.0
+    }
+  ]
+}

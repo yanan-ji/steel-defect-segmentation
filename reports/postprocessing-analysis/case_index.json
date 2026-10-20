@@ -1,0 +1,344 @@
+[
+  {
+    "model": "E0",
+    "minimum_area": 0,
+    "class": 1,
+    "kind": "fp",
+    "image_id": "c0e34b64b.jpg",
+    "error_or_removed_pixels": 235,
+    "file": "cases/e0/area_0/class_1_fp_c0e34b64b.jpg"
+  },
+  {
+    "model": "E0",
+    "minimum_area": 0,
+    "class": 1,
+    "kind": "fn",
+    "image_id": "6aadb8486.jpg",
+    "error_or_removed_pixels": 19997,
+    "file": "cases/e0/area_0/class_1_fn_6aadb8486.jpg"
+  },
+  {
+    "model": "E0",
+    "minimum_area": 0,
+    "class": 2,
+    "kind": "fp",
+    "image_id": "9169b4f3a.jpg",
+    "error_or_removed_pixels": 23,
+    "file": "cases/e0/area_0/class_2_fp_9169b4f3a.jpg"
+  },
+  {
+    "model": "E0",
+    "minimum_area": 0,
+    "class": 2,
+    "kind": "fn",
+    "image_id": "fe689cf0a.jpg",
+    "error_or_removed_pixels": 6390,
+    "file": "cases/e0/area_0/class_2_fn_fe689cf0a.jpg"
+  },
+  {
+    "model": "E0",
+    "minimum_area": 0,
+    "class": 3,
+    "kind": "fp",
+    "image_id": "002af848d.jpg",
+    "error_or_removed_pixels": 34242,
+    "file": "cases/e0/area_0/class_3_fp_002af848d.jpg"
+  },
+  {
+    "model": "E0",
+    "minimum_area": 0,
+    "class": 3,
+    "kind": "fn",
+    "image_id": "fda720bac.jpg",
+    "error_or_removed_pixels": 314814,
+    "file": "cases/e0/area_0/class_3_fn_fda720bac.jpg"
+  },
+  {
+    "model": "E0",
+    "minimum_area": 0,
+    "class": 4,
+    "kind": "fp",
+    "image_id": "182a90efe.jpg",
+    "error_or_removed_pixels": 45708,
+    "file": "cases/e0/area_0/class_4_fp_182a90efe.jpg"
+  },
+  {
+    "model": "E0",
+    "minimum_area": 0,
+    "class": 4,
+    "kind": "fn",
+    "image_id": "67579f49a.jpg",
+    "error_or_removed_pixels": 112209,
+    "file": "cases/e0/area_0/class_4_fn_67579f49a.jpg"
+  },
+  {
+    "model": "E0",
+    "minimum_area": 0,
+    "class": 4,
+    "kind": "persistent_normal_fp",
+    "image_id": "182a90efe.jpg",
+    "error_or_removed_pixels": 45708,
+    "file": "cases/e0/area_0/class_4_persistent_normal_fp_182a90efe.jpg"
+  },
+  {
+    "model": "E0",
+    "minimum_area": 256,
+    "class": 1,
+    "kind": "fp",
+    "image_id": "d31e0200c.jpg",
+    "error_or_removed_pixels": 187,
+    "file": "cases/e0/area_256/class_1_fp_d31e0200c.jpg"
+  },
+  {
+    "model": "E0",
+    "minimum_area": 256,
+    "class": 1,
+    "kind": "fn",
+    "image_id": "6aadb8486.jpg",
+    "error_or_removed_pixels": 19997,
+    "file": "cases/e0/area_256/class_1_fn_6aadb8486.jpg"
+  },
+  {
+    "model": "E0",
+    "minimum_area": 256,
+    "class": 2,
+    "kind": "fp",
+    "image_id": "6b53b62be.jpg",
+    "error_or_removed_pixels": 11,
+    "file": "cases/e0/area_256/class_2_fp_6b53b62be.jpg"
+  },
+  {
+    "model": "E0",
+    "minimum_area": 256,
+    "class": 2,
+    "kind": "fn",
+    "image_id": "fe689cf0a.jpg",
+    "error_or_removed_pixels": 6390,
+    "file": "cases/e0/area_256/class_2_fn_fe689cf0a.jpg"
+  },
+  {
+    "model": "E0",
+    "minimum_area": 256,
+    "class": 3,
+    "kind": "fp",
+    "image_id": "002af848d.jpg",
+    "error_or_removed_pixels": 33742,
+    "file": "cases/e0/area_256/class_3_fp_002af848d.jpg"
+  },
+  {
+    "model": "E0",
+    "minimum_area": 256,
+    "class": 3,
+    "kind": "fn",
+    "image_id": "fda720bac.jpg",
+    "error_or_removed_pixels": 315806,
+    "file": "cases/e0/area_256/class_3_fn_fda720bac.jpg"
+  },
+  {
+    "model": "E0",
+    "minimum_area": 256,
+    "class": 4,
+    "kind": "fp",
+    "image_id": "182a90efe.jpg",
+    "error_or_removed_pixels": 45469,
+    "file": "cases/e0/area_256/class_4_fp_182a90efe.jpg"
+  },
+  {
+    "model": "E0",
+    "minimum_area": 256,
+    "class": 4,
+    "kind": "fn",
+    "image_id": "67579f49a.jpg",
+    "error_or_removed_pixels": 113588,
+    "file": "cases/e0/area_256/class_4_fn_67579f49a.jpg"
+  },
+  {
+    "model": "E0",
+    "minimum_area": 256,
+    "class": 3,
+    "kind": "resolved_normal_fp",
+    "image_id": "0d388891f.jpg",
+    "error_or_removed_pixels": 791,
+    "file": "cases/e0/area_256/class_3_resolved_normal_fp_0d388891f.jpg"
+  },
+  {
+    "model": "E0",
+    "minimum_area": 256,
+    "class": 4,
+    "kind": "persistent_normal_fp",
+    "image_id": "182a90efe.jpg",
+    "error_or_removed_pixels": 45469,
+    "file": "cases/e0/area_256/class_4_persistent_normal_fp_182a90efe.jpg"
+  },
+  {
+    "model": "E1",
+    "minimum_area": 0,
+    "class": 1,
+    "kind": "fp",
+    "image_id": "d7749f865.jpg",
+    "error_or_removed_pixels": 8314,
+    "file": "cases/e1/area_0/class_1_fp_d7749f865.jpg"
+  },
+  {
+    "model": "E1",
+    "minimum_area": 0,
+    "class": 1,
+    "kind": "fn",
+    "image_id": "6aadb8486.jpg",
+    "error_or_removed_pixels": 17937,
+    "file": "cases/e1/area_0/class_1_fn_6aadb8486.jpg"
+  },
+  {
+    "model": "E1",
+    "minimum_area": 0,
+    "class": 2,
+    "kind": "fp",
+    "image_id": "fb9558035.jpg",
+    "error_or_removed_pixels": 4602,
+    "file": "cases/e1/area_0/class_2_fp_fb9558035.jpg"
+  },
+  {
+    "model": "E1",
+    "minimum_area": 0,
+    "class": 2,
+    "kind": "fn",
+    "image_id": "fe689cf0a.jpg",
+    "error_or_removed_pixels": 6276,
+    "file": "cases/e1/area_0/class_2_fn_fe689cf0a.jpg"
+  },
+  {
+    "model": "E1",
+    "minimum_area": 0,
+    "class": 3,
+    "kind": "fp",
+    "image_id": "002af848d.jpg",
+    "error_or_removed_pixels": 58884,
+    "file": "cases/e1/area_0/class_3_fp_002af848d.jpg"
+  },
+  {
+    "model": "E1",
+    "minimum_area": 0,
+    "class": 3,
+    "kind": "fn",
+    "image_id": "fda720bac.jpg",
+    "error_or_removed_pixels": 276320,
+    "file": "cases/e1/area_0/class_3_fn_fda720bac.jpg"
+  },
+  {
+    "model": "E1",
+    "minimum_area": 0,
+    "class": 4,
+    "kind": "fp",
+    "image_id": "ce6358d6f.jpg",
+    "error_or_removed_pixels": 159639,
+    "file": "cases/e1/area_0/class_4_fp_ce6358d6f.jpg"
+  },
+  {
+    "model": "E1",
+    "minimum_area": 0,
+    "class": 4,
+    "kind": "fn",
+    "image_id": "c49d3da1b.jpg",
+    "error_or_removed_pixels": 86611,
+    "file": "cases/e1/area_0/class_4_fn_c49d3da1b.jpg"
+  },
+  {
+    "model": "E1",
+    "minimum_area": 0,
+    "class": 4,
+    "kind": "persistent_normal_fp",
+    "image_id": "4ba3c73f3.jpg",
+    "error_or_removed_pixels": 166603,
+    "file": "cases/e1/area_0/class_4_persistent_normal_fp_4ba3c73f3.jpg"
+  },
+  {
+    "model": "E1",
+    "minimum_area": 256,
+    "class": 1,
+    "kind": "fp",
+    "image_id": "1d56ccf70.jpg",
+    "error_or_removed_pixels": 7836,
+    "file": "cases/e1/area_256/class_1_fp_1d56ccf70.jpg"
+  },
+  {
+    "model": "E1",
+    "minimum_area": 256,
+    "class": 1,
+    "kind": "fn",
+    "image_id": "6aadb8486.jpg",
+    "error_or_removed_pixels": 18276,
+    "file": "cases/e1/area_256/class_1_fn_6aadb8486.jpg"
+  },
+  {
+    "model": "E1",
+    "minimum_area": 256,
+    "class": 2,
+    "kind": "fp",
+    "image_id": "b1d3f12b6.jpg",
+    "error_or_removed_pixels": 3456,
+    "file": "cases/e1/area_256/class_2_fp_b1d3f12b6.jpg"
+  },
+  {
+    "model": "E1",
+    "minimum_area": 256,
+    "class": 2,
+    "kind": "fn",
+    "image_id": "fe689cf0a.jpg",
+    "error_or_removed_pixels": 6390,
+    "file": "cases/e1/area_256/class_2_fn_fe689cf0a.jpg"
+  },
+  {
+    "model": "E1",
+    "minimum_area": 256,
+    "class": 3,
+    "kind": "fp",
+    "image_id": "002af848d.jpg",
+    "error_or_removed_pixels": 58629,
+    "file": "cases/e1/area_256/class_3_fp_002af848d.jpg"
+  },
+  {
+    "model": "E1",
+    "minimum_area": 256,
+    "class": 3,
+    "kind": "fn",
+    "image_id": "fda720bac.jpg",
+    "error_or_removed_pixels": 276780,
+    "file": "cases/e1/area_256/class_3_fn_fda720bac.jpg"
+  },
+  {
+    "model": "E1",
+    "minimum_area": 256,
+    "class": 4,
+    "kind": "fp",
+    "image_id": "ce6358d6f.jpg",
+    "error_or_removed_pixels": 158156,
+    "file": "cases/e1/area_256/class_4_fp_ce6358d6f.jpg"
+  },
+  {
+    "model": "E1",
+    "minimum_area": 256,
+    "class": 4,
+    "kind": "fn",
+    "image_id": "c49d3da1b.jpg",
+    "error_or_removed_pixels": 86611,
+    "file": "cases/e1/area_256/class_4_fn_c49d3da1b.jpg"
+  },
+  {
+    "model": "E1",
+    "minimum_area": 256,
+    "class": 4,
+    "kind": "resolved_normal_fp",
+    "image_id": "1f9f854f3.jpg",
+    "error_or_removed_pixels": 942,
+    "file": "cases/e1/area_256/class_4_resolved_normal_fp_1f9f854f3.jpg"
+  },
+  {
+    "model": "E1",
+    "minimum_area": 256,
+    "class": 4,
+    "kind": "persistent_normal_fp",
+    "image_id": "4ba3c73f3.jpg",
+    "error_or_removed_pixels": 166157,
+    "file": "cases/e1/area_256/class_4_persistent_normal_fp_4ba3c73f3.jpg"
+  }
+]

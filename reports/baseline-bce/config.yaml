@@ -1,0 +1,24 @@
+data_root: severstal-steel-defect-detection
+image_dir: train_images
+loader:
+  batch_size: 4
+  num_workers: 0
+  pin_memory: false
+patch:
+  height: 256
+  stride_height: 256
+  stride_width: 512
+  width: 512
+seed: 42
+splits:
+  test: 0.15
+  train: 0.7
+  val: 0.15
+splits_dir: data/processed/splits
+train_csv: train.csv
+training:
+  epochs: 30
+  learning_rate: 0.0003
+  patience: 6
+  threshold: 0.5
+  weight_decay: 1.0e-05

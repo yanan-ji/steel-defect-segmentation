@@ -1,0 +1,110 @@
+{
+  "device": "mps",
+  "epochs": 2,
+  "train_ids": 16,
+  "val_ids": 12,
+  "elapsed_seconds": 8.706201499997405,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 0.5036740824580193,
+      "val_loss": 0.3036426429947217,
+      "gradient_finite": true,
+      "dice_per_class": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "iou_per_class": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "precision_per_class": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "recall_per_class": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "macro_dice": 0.0,
+      "empty_image_false_positive_rate": 0.0,
+      "tp": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "fp": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "fn": [
+        4132.0,
+        6420.0,
+        64886.0,
+        29840.0
+      ]
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.08006672747433186,
+      "val_loss": 0.07779489342647139,
+      "gradient_finite": true,
+      "dice_per_class": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "iou_per_class": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "precision_per_class": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "recall_per_class": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "macro_dice": 0.0,
+      "empty_image_false_positive_rate": 0.0,
+      "tp": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "fp": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "fn": [
+        4132.0,
+        6420.0,
+        64886.0,
+        29840.0
+      ]
+    }
+  ],
+  "memory_allocated_bytes": 555497728
+}

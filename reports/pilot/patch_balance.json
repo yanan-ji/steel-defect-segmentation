@@ -1,0 +1,11 @@
+{
+  "patches": 35168,
+  "all_background_patches": 24631,
+  "all_background_ratio": 0.7003810282074613,
+  "positive_patch_ratio_per_class": [
+    0.03210304822565969,
+    0.006255686988171065,
+    0.23364990900818927,
+    0.03577115559599636
+  ]
+}

@@ -1,0 +1,235 @@
+{
+  "evaluation_scope": "synthetic plus deterministic first 8 frozen validation originals; no test images or labels read",
+  "checkpoint": "reports/baseline-bce-formal/best_macro_dice.pt",
+  "checkpoint_epoch": 24,
+  "checkpoint_sha256": "fb7b5387621e9104c1513f482b48af9a04fba1c2fba3e9e362bcdb4890a5d4df",
+  "manifest_hashes": {
+    "train": "ba7887219c3d07215f44b704f053dff6bfece91375bd7a5178353af156152c89",
+    "val": "593cf50fe4c05f2d788f3fb8a15a55cf2d07ae1e5644a665c81db3fe20af9470"
+  },
+  "model": "ResNet18UNet(classes=4), from-scratch E0 Epoch 24 best_macro_dice",
+  "input": {
+    "name": "image",
+    "shape": [
+      1,
+      3,
+      256,
+      512
+    ],
+    "dtype": "float32",
+    "color": "RGB",
+    "scale": "uint8 / 255"
+  },
+  "output": {
+    "name": "logits",
+    "shape": [
+      1,
+      4,
+      256,
+      512
+    ],
+    "dtype": "float32",
+    "activation": "none"
+  },
+  "threshold": 0.5,
+  "postprocessing_min_component_area": 0,
+  "preprocessing": "OpenCV BGR to RGB; float32 /255; no resize for native 256x1600 images",
+  "tiling": {
+    "tile": [
+      256,
+      512
+    ],
+    "stride": [
+      256,
+      384
+    ],
+    "tail": "append final start at width-tile; overlap logits averaged",
+    "image_width": 1600,
+    "starts": [
+      0,
+      384,
+      768,
+      1088
+    ]
+  },
+  "onnx": {
+    "path": "reports/final-delivery/e0_epoch24_best_macro.onnx",
+    "sha256": "27938b3ca9a79a9fe5a2e26b881014e32ee8958b36879d1b905b4bd30fab4ffe",
+    "opset": 17,
+    "size_bytes": 57091677
+  },
+  "runtime": {
+    "onnxruntime": "1.31.0",
+    "providers_available": [
+      "CoreMLExecutionProvider",
+      "AzureExecutionProvider",
+      "CPUExecutionProvider"
+    ],
+    "provider_used": "CPUExecutionProvider"
+  },
+  "backend_checks_synthetic": {
+    "onnxruntime_cpu": {
+      "available": true,
+      "provider": "CPUExecutionProvider"
+    },
+    "onnxruntime_coreml": {
+      "available": true,
+      "session_providers": [
+        "CoreMLExecutionProvider",
+        "CPUExecutionProvider"
+      ],
+      "max_abs_logit_error_vs_torch": 0.02294921875,
+      "threshold_mask_pixel_agreement_vs_torch": 1.0,
+      "status": "passed",
+      "model_only_p50_ms": 15.686625491071027,
+      "model_only_p95_ms": 16.639082710025832
+    },
+    "pytorch_mps": {
+      "available": true,
+      "max_abs_logit_error_vs_cpu_torch": 3.4332275390625e-05,
+      "threshold_mask_pixel_agreement_vs_cpu_torch": 1.0,
+      "status": "passed",
+      "model_only_p50_ms": 28.769833006663248,
+      "model_only_p95_ms": 31.107199704274535
+    }
+  },
+  "consistency_synthetic": {
+    "tile_max_abs_logit_error": 3.0517578125e-05,
+    "tile_threshold_mask_pixel_agreement": 1.0,
+    "full_256x1600_stitch_max_abs_logit_error": 2.47955322265625e-05,
+    "full_256x1600_stitch_mask_pixel_agreement": 1.0,
+    "passed": true
+  },
+  "consistency_frozen_validation_subset": {
+    "images_checked": 8,
+    "images": [
+      {
+        "image_id": "05b847b1f.jpg",
+        "max_abs_logit_error": 0.000152587890625,
+        "threshold_mask_pixel_agreement": 1.0,
+        "shape": [
+          4,
+          256,
+          1600
+        ]
+      },
+      {
+        "image_id": "48be84097.jpg",
+        "max_abs_logit_error": 6.771087646484375e-05,
+        "threshold_mask_pixel_agreement": 1.0,
+        "shape": [
+          4,
+          256,
+          1600
+        ]
+      },
+      {
+        "image_id": "a7b7d8e30.jpg",
+        "max_abs_logit_error": 4.291534423828125e-05,
+        "threshold_mask_pixel_agreement": 1.0,
+        "shape": [
+          4,
+          256,
+          1600
+        ]
+      },
+      {
+        "image_id": "744e852d6.jpg",
+        "max_abs_logit_error": 4.482269287109375e-05,
+        "threshold_mask_pixel_agreement": 1.0,
+        "shape": [
+          4,
+          256,
+          1600
+        ]
+      },
+      {
+        "image_id": "428ebe246.jpg",
+        "max_abs_logit_error": 0.0001983642578125,
+        "threshold_mask_pixel_agreement": 1.0,
+        "shape": [
+          4,
+          256,
+          1600
+        ]
+      },
+      {
+        "image_id": "3b657666a.jpg",
+        "max_abs_logit_error": 5.53131103515625e-05,
+        "threshold_mask_pixel_agreement": 1.0,
+        "shape": [
+          4,
+          256,
+          1600
+        ]
+      },
+      {
+        "image_id": "8600decb6.jpg",
+        "max_abs_logit_error": 0.00014495849609375,
+        "threshold_mask_pixel_agreement": 1.0,
+        "shape": [
+          4,
+          256,
+          1600
+        ]
+      },
+      {
+        "image_id": "ee44ebd2f.jpg",
+        "max_abs_logit_error": 5.435943603515625e-05,
+        "threshold_mask_pixel_agreement": 1.0,
+        "shape": [
+          4,
+          256,
+          1600
+        ]
+      }
+    ],
+    "max_abs_logit_error": 0.0001983642578125,
+    "min_threshold_mask_pixel_agreement": 1.0,
+    "passed": true
+  },
+  "latency_ms_synthetic": {
+    "model_only_excludes_preprocessing_stitching": true,
+    "full_image_end_to_end_includes_scaling_tiling_model_stitching_and_threshold_excludes_disk_io": true,
+    "onnxruntime_cpu_model_only_p50": 69.05118750000838,
+    "onnxruntime_cpu_model_only_p95": 71.42411395616364,
+    "torch_cpu_model_only_p50": 138.7279580012546,
+    "torch_cpu_model_only_p95": 149.9054145955597,
+    "onnxruntime_cpu_tile_stitch_only_p50": 298.3811250014696,
+    "onnxruntime_cpu_tile_stitch_only_p95": 303.77191639563534,
+    "onnxruntime_cpu_full_image_e2e_p50": 302.5833750143647,
+    "onnxruntime_cpu_full_image_e2e_p95": 313.7547994032502,
+    "torch_mps_full_image_e2e": {
+      "p50": 130.5572500132257,
+      "p95": 152.17791311151814,
+      "samples": 3
+    },
+    "onnxruntime_coreml_full_image_e2e": {
+      "p50": 68.99154200800695,
+      "p95": 73.13664140092442,
+      "samples": 3
+    },
+    "torch_mps_tile_stitch_only": {
+      "p50": 128.69962501281407,
+      "p95": 128.75943719991483,
+      "samples": 3
+    },
+    "onnxruntime_coreml_tile_stitch_only": {
+      "p50": 67.71704199491069,
+      "p95": 81.23144110868452,
+      "samples": 3
+    },
+    "model_only_samples": 20,
+    "cpu_full_image_samples": 5
+  },
+  "environment": {
+    "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+    "python": "3.13.5",
+    "torch": "2.14.1",
+    "numpy": "2.5.4",
+    "onnx": "1.23.2",
+    "onnxruntime": "1.31.0",
+    "mps_available": true,
+    "mps_tested": true
+  }
+}

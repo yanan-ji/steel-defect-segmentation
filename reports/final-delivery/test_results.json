@@ -1,0 +1,87 @@
+{
+  "dice_per_class": [
+    0.0355660505592823,
+    0.019721347838640213,
+    0.5259214043617249,
+    0.3687207102775574
+  ],
+  "iou_per_class": [
+    0.01810498535633087,
+    0.009958875365555286,
+    0.3567797839641571,
+    0.22603163123130798
+  ],
+  "precision_per_class": [
+    0.7917087078094482,
+    0.7702005505561829,
+    0.7700409293174744,
+    0.5486541390419006
+  ],
+  "recall_per_class": [
+    0.018191637471318245,
+    0.009988554753363132,
+    0.3993263840675354,
+    0.27766069769859314
+  ],
+  "macro_dice": 0.23748238384723663,
+  "empty_image_false_positive_rate": 0.3182844243792325,
+  "tp": [
+    10981.0,
+    1344.0,
+    7634762.0,
+    1143336.0
+  ],
+  "fp": [
+    2889.0,
+    401.0,
+    2279986.0,
+    940556.0
+  ],
+  "fn": [
+    592648.0,
+    133210.0,
+    11484340.0,
+    2974409.0
+  ],
+  "split": "frozen internal held-out test; evaluated once after model/threshold/tiling/ONNX freeze",
+  "test_images": 1895,
+  "normal_images": 886,
+  "normal_image_false_positive_images": 282,
+  "full_background_prediction_images": 662,
+  "full_background_prediction_image_ratio": 0.34934036939313984,
+  "prediction_positive_pixel_ratio_per_class": [
+    1.7869290072559368e-05,
+    2.248155095646438e-06,
+    0.012773576640831135,
+    0.0026847635636543534
+  ],
+  "threshold": 0.5,
+  "minimum_connected_component_area": 0,
+  "inference_backend": "ONNX Runtime CPUExecutionProvider",
+  "elapsed_seconds": 886.8164978749992,
+  "representative_error_cases": {
+    "0": {
+      "fn": "1f117b19e.jpg",
+      "fp": "1ae56dead.jpg",
+      "tp": "b76bbb3cf.jpg"
+    },
+    "1": {
+      "fn": "dbac90dc5.jpg",
+      "fp": "741265573.jpg",
+      "tp": "05747b10b.jpg"
+    },
+    "2": {
+      "fn": "861a262c8.jpg",
+      "fp": "7954f8d17.jpg",
+      "tp": "861a262c8.jpg"
+    },
+    "3": {
+      "fn": "16a50624d.jpg",
+      "fp": "13c1d516a.jpg",
+      "tp": "16a50624d.jpg"
+    }
+  },
+  "checkpoint_sha256": "fb7b5387621e9104c1513f482b48af9a04fba1c2fba3e9e362bcdb4890a5d4df",
+  "onnx_sha256": "27938b3ca9a79a9fe5a2e26b881014e32ee8958b36879d1b905b4bd30fab4ffe",
+  "test_manifest_sha256": "79ebfdf0244af6bf001f84de3443166fa84f2d05591a76fdea20684a66120826"
+}

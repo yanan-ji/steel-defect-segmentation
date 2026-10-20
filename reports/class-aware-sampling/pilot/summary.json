@@ -1,0 +1,12 @@
+{
+  "status": "pilot_completed",
+  "epochs": 2,
+  "device": "mps",
+  "elapsed_seconds": 66.54390191599668,
+  "train_subset_images": 256,
+  "val_subset_images": 12,
+  "best_val_bce_epoch": 2,
+  "best_macro_dice_epoch": 1,
+  "checkpoint_round_trip": true,
+  "pilot_is_not_formal_performance_comparison": true
+}

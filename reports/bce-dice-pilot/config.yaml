@@ -1,0 +1,50 @@
+base_config:
+  data_root: severstal-steel-defect-detection
+  train_csv: train.csv
+  image_dir: train_images
+  splits_dir: data/processed/splits
+  seed: 42
+  splits:
+    train: 0.7
+    val: 0.15
+    test: 0.15
+  loader:
+    batch_size: 4
+    num_workers: 0
+    pin_memory: false
+  patch:
+    height: 256
+    width: 512
+    stride_height: 256
+    stride_width: 512
+  training:
+    epochs: 30
+    learning_rate: 0.0003
+    weight_decay: 1.0e-05
+    patience: 6
+    threshold: 0.5
+experiment: E1 BCE plus 1.0 Soft Dice
+loss_difference_from_E0: BCEWithLogitsLoss + 1.0 * SoftDiceLoss
+dice_absent_class_rule: Exclude classes without a positive target pixel in the current
+  batch; all-empty batch Dice loss is zero
+early_stopping_monitor_for_formal_training: full validation BCE, patience 6
+pilot_epochs: 2
+pilot_id_source: reports/pilot
+pilot_id_sha256:
+  train: aa786c682c2b3fb8e057d975022158b43fa4ad3c4fd37d3a4c4ff3463d438758
+  val: fb781ead763009822f468609ce9feb37a9e6fa8c596ab1ccbd8f6df4a7305a2b
+coverage:
+  train:
+    normal: 4
+    class_images:
+    - 2
+    - 1
+    - 9
+    - 2
+  val:
+    normal: 5
+    class_images:
+    - 2
+    - 2
+    - 4
+    - 2

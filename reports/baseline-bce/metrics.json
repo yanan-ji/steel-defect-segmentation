@@ -1,0 +1,75 @@
+[
+  {
+    "dice_per_class": [
+      0.0,
+      0.0,
+      0.02060057781636715,
+      0.0
+    ],
+    "iou_per_class": [
+      0.0,
+      0.0,
+      0.01040748879313469,
+      0.0
+    ],
+    "precision_per_class": [
+      0.0,
+      0.0,
+      0.8187623023986816,
+      0.0
+    ],
+    "recall_per_class": [
+      0.0,
+      0.0,
+      0.010431520640850067,
+      0.0
+    ],
+    "macro_dice": 0.005150144454091787,
+    "empty_image_false_positive_rate": 0.13559322033898305,
+    "tp": [
+      0.0,
+      0.0,
+      217722.0,
+      0.0
+    ],
+    "fp": [
+      0.0,
+      0.0,
+      48194.0,
+      0.0
+    ],
+    "fn": [
+      548172.0,
+      103501.0,
+      20653828.0,
+      4175566.0
+    ],
+    "val_loss": 0.032841333840178316,
+    "prediction_positive_pixel_ratio_per_class": [
+      0.0,
+      0.0,
+      0.00034514034257044127,
+      0.0
+    ],
+    "probability_mean_per_class": [
+      0.0005862406105734408,
+      0.00015697703929618,
+      0.024605214595794678,
+      0.004579974338412285
+    ],
+    "full_background_prediction_image_ratio": 0.8463583200425305,
+    "epoch": 1,
+    "train_loss": 0.039833212808760524,
+    "train_samples": 8792,
+    "train_patches": 8792,
+    "train_batches": 2198,
+    "val_samples": 1881,
+    "learning_rate": 0.0003,
+    "elapsed_seconds": 2225.9685967920013,
+    "gradient_finite": true,
+    "device": "mps",
+    "mps_current_allocated_bytes": 555497728,
+    "checkpoint_tie_break": "best val loss: lower loss; best macro Dice: higher Dice; ties select earlier epoch",
+    "prediction_positive_ratio_correction": "derived from accumulated TP+FP divided by 1881*256*1600; original logger field was incorrect"
+  }
+]

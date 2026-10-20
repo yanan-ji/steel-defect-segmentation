@@ -1,0 +1,8 @@
+{
+  "status": "completed",
+  "epochs_completed": 22,
+  "best_val_loss_epoch": 16,
+  "best_macro_dice_epoch": 20,
+  "tie_break": "strict improvement; exact ties keep earlier epoch",
+  "total_epoch_seconds": 37163.322115334
+}

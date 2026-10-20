@@ -1,0 +1,201 @@
+{
+  "scope": "validation-tuned; frozen 1881-image validation only; no test images read",
+  "thresholds": [
+    0.1,
+    0.15,
+    0.2,
+    0.25,
+    0.3,
+    0.35,
+    0.4,
+    0.45,
+    0.5,
+    0.55,
+    0.6,
+    0.65,
+    0.7,
+    0.75,
+    0.8,
+    0.85,
+    0.9,
+    0.95
+  ],
+  "manifest_hashes": {
+    "train": "ba7887219c3d07215f44b704f053dff6bfece91375bd7a5178353af156152c89",
+    "val": "593cf50fe4c05f2d788f3fb8a15a55cf2d07ae1e5644a665c81db3fe20af9470"
+  },
+  "checkpoints": {
+    "E0": {
+      "path": "reports/baseline-bce-formal/best_macro_dice.pt",
+      "epoch": 24
+    },
+    "E1": {
+      "path": "reports/bce-dice-formal/best_macro_dice.pt",
+      "epoch": 14
+    }
+  },
+  "device": "mps",
+  "scan_seconds": {
+    "E0": 262.17534600000363,
+    "E1": 268.30515395800467
+  },
+  "e0_original_normal_fpr_ceiling": 0.34011299435028247,
+  "e0_original": {
+    "threshold": 0.5,
+    "tp": [
+      11940,
+      1427,
+      8085907,
+      1297045
+    ],
+    "fp": [
+      2013,
+      57,
+      2145041,
+      898123
+    ],
+    "fn": [
+      536232,
+      102074,
+      12785646,
+      2878521
+    ],
+    "dice_per_class": [
+      0.04248165443629086,
+      0.02718483592894223,
+      0.5199522057727769,
+      0.40718855943443877
+    ],
+    "iou_per_class": [
+      0.021701791215681998,
+      0.013779717646149983,
+      0.35130771303521274,
+      0.25564140805634716
+    ],
+    "precision_per_class": [
+      0.8557299505482692,
+      0.9615902964959568,
+      0.7903380019134102,
+      0.5908636605489876
+    ],
+    "recall_per_class": [
+      0.021781484643506054,
+      0.013787306402836687,
+      0.38741281015360957,
+      0.31062734968145633
+    ],
+    "macro_dice": 0.2492018138931122,
+    "empty_image_false_positive_rate": 0.34011299435028247,
+    "full_background_prediction_image_ratio": 0.3519404572036151,
+    "normal_false_positive_images": 301,
+    "normal_images": 885,
+    "full_background_prediction_images": 662,
+    "images": 1881
+  },
+  "e1_original": {
+    "threshold": 0.5,
+    "tp": [
+      141495,
+      12876,
+      10065573,
+      1570887
+    ],
+    "fp": [
+      1127377,
+      276151,
+      4286890,
+      7960749
+    ],
+    "fn": [
+      406677,
+      90625,
+      10805980,
+      2604679
+    ],
+    "dice_per_class": [
+      0.15574196332064605,
+      0.06560551094444218,
+      0.5715176259288549,
+      0.22920607721400765
+    ],
+    "iou_per_class": [
+      0.08444694843302106,
+      0.033915269773371406,
+      0.4000872788510799,
+      0.12943690073963968
+    ],
+    "precision_per_class": [
+      0.1115124299377715,
+      0.044549471156673945,
+      0.7013132867856897,
+      0.16480769932884554
+    ],
+    "recall_per_class": [
+      0.25812153849521685,
+      0.12440459512468478,
+      0.48226277172570725,
+      0.3762093570069303
+    ],
+    "macro_dice": 0.2555177943519877,
+    "empty_image_false_positive_rate": 0.7028248587570621,
+    "full_background_prediction_image_ratio": 0.17012227538543329,
+    "normal_false_positive_images": 622,
+    "normal_images": 885,
+    "full_background_prediction_images": 320,
+    "images": 1881
+  },
+  "best_feasible_validation_tuned": {
+    "model": "E0",
+    "threshold": 0.5,
+    "tp": [
+      11940,
+      1427,
+      8085907,
+      1297045
+    ],
+    "fp": [
+      2013,
+      57,
+      2145041,
+      898123
+    ],
+    "fn": [
+      536232,
+      102074,
+      12785646,
+      2878521
+    ],
+    "dice_per_class": [
+      0.04248165443629086,
+      0.02718483592894223,
+      0.5199522057727769,
+      0.40718855943443877
+    ],
+    "iou_per_class": [
+      0.021701791215681998,
+      0.013779717646149983,
+      0.35130771303521274,
+      0.25564140805634716
+    ],
+    "precision_per_class": [
+      0.8557299505482692,
+      0.9615902964959568,
+      0.7903380019134102,
+      0.5908636605489876
+    ],
+    "recall_per_class": [
+      0.021781484643506054,
+      0.013787306402836687,
+      0.38741281015360957,
+      0.31062734968145633
+    ],
+    "macro_dice": 0.2492018138931122,
+    "empty_image_false_positive_rate": 0.34011299435028247,
+    "full_background_prediction_image_ratio": 0.3519404572036151,
+    "normal_false_positive_images": 301,
+    "normal_images": 885,
+    "full_background_prediction_images": 662,
+    "images": 1881
+  },
+  "tie_break": "higher macro Dice, lower normal FPR, lower threshold, E0"
+}

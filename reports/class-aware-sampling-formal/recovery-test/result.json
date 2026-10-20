@@ -1,0 +1,17 @@
+{
+  "isolated_test": true,
+  "device": "CPU synthetic equivalence test (not model training)",
+  "checkpoint_path": "reports/class-aware-sampling-formal/recovery-test/resume-fixture.pt",
+  "completed_batches": 3,
+  "resumed_from_batch_cursor": 2,
+  "no_replayed_batches": true,
+  "sampling_plan_restored": true,
+  "batch_sequence_equal": true,
+  "model_weights_exact": true,
+  "optimizer_state_exact": true,
+  "scheduler_epoch_equal": true,
+  "learning_rate_full": 0.00027,
+  "learning_rate_resumed": 0.00027,
+  "early_stopping_state_saved": true,
+  "passed": true
+}

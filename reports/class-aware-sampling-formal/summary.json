@@ -1,0 +1,22 @@
+{
+  "epochs_completed": 22,
+  "early_stopped": true,
+  "best_val_loss_epoch": 16,
+  "best_macro_dice_epoch": 20,
+  "best_macro_dice": 0.3180161416530609,
+  "best_macro_fpr": 0.4632768361581921,
+  "best_under_fpr_epoch": 13,
+  "best_under_fpr_macro_dice": 0.16165298223495483,
+  "best_under_fpr_fpr": 0.3073446327683616,
+  "e0_reference_macro_dice": 0.24920180439949036,
+  "e0_reference_fpr": 0.34011299435028247,
+  "joint_target_met": false,
+  "test_set_used": false,
+  "checkpoint_epochs": {
+    "best_val_loss.pt": 16,
+    "best_macro_dice.pt": 20,
+    "last.pt": 22
+  },
+  "total_epoch_seconds": 37163.322115334,
+  "report": "reports/class-aware-sampling-formal/experiment_report.md"
+}
