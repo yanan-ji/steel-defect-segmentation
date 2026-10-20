@@ -1,0 +1,6 @@
+fractions:
+  test: 0.15
+  train: 0.7
+  val: 0.15
+seed: 42
+strategy: original-image 4-bit multilabel stratification; immutable after creation
