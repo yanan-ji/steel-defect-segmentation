@@ -1,0 +1,52 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# ---- Virtual environments ----
+.venv/
+venv/
+env/
+
+# ---- OS / editor ----
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# ---- Credentials (never commit) ----
+.env
+.env.*
+kaggle.json
+*.pem
+*.key
+
+# ---- Model weights and exported graphs ----
+# Distributed via GitHub Releases, not in the Git tree.
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.safetensors
+
+# ---- Severstal dataset (download separately, ~1.6 GB) ----
+severstal-steel-defect-detection/
+data/raw/
+*.zip
+
+# ---- Generated / bulky experiment output ----
+reports/**/visualizations/
+reports/**/cases/
+reports/figures/
+predictions/
+runs/
+outputs/
+
+# ---- Data: ignore everything processed except the frozen split manifests ----
+data/processed/*
+!data/processed/splits/
