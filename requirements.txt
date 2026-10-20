@@ -1,0 +1,8 @@
+# Base stack: data pipeline, training and evaluation.
+# Inference-only deployments should use requirements-inference.txt instead.
+numpy>=1.26
+opencv-python>=4.9
+pandas>=2.0
+PyYAML>=6.0
+matplotlib>=3.8
+torch>=2.2

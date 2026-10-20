@@ -1,0 +1,3 @@
+# Test tooling. Installs the base stack as well.
+-r requirements.txt
+pytest>=8.0

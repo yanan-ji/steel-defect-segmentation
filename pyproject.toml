@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "steel-defect-segmentation"
+version = "1.0.0"
+description = "Four-class multi-label steel surface defect segmentation on Severstal: ResNet18-style U-Net, controlled ablations, threshold/post-processing diagnostics and ONNX Runtime deployment."
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [{ name = "Yanan Ji" }]
+keywords = ["semantic-segmentation", "defect-detection", "pytorch", "onnx", "industrial-vision", "severstal"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering :: Image Recognition",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+dependencies = [
+    "numpy>=1.26",
+    "opencv-python>=4.9",
+    "pandas>=2.0",
+    "PyYAML>=6.0",
+    "matplotlib>=3.8",
+    "torch>=2.2",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0"]
+onnx = ["onnx==1.23.2", "onnxruntime==1.31.0"]
+
+[project.urls]
+Homepage = "https://github.com/yanan-ji/steel-defect-segmentation"
+
+[tool.setuptools.packages.find]
+where = ["src"]

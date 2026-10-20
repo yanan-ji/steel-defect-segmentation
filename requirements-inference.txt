@@ -1,0 +1,6 @@
+# Minimal deployment stack: ONNX artefact export/validation and ONNX Runtime inference.
+# No PyTorch required for the inference path (scripts/infer_final.py).
+-r requirements-deploy.txt
+numpy>=1.26
+opencv-python>=4.9
+PyYAML>=6.0
