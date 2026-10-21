@@ -1,5 +1,7 @@
 # Steel Defect Segmentation
 
+[![tests](https://github.com/yanan-ji/steel-defect-segmentation/actions/workflows/tests.yml/badge.svg)](https://github.com/yanan-ji/steel-defect-segmentation/actions/workflows/tests.yml)
+
 Four-class multi-label semantic segmentation of hot-rolled steel surfaces
 (Severstal), built as a **controlled-experiment project**: one baseline, two
 ablations, a threshold and connected-component study, a frozen held-out
